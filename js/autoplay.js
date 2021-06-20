@@ -19,8 +19,13 @@ var CheckCell_required;
 function Check_SuccessfullEnd(){
 	SuccessfullEnd = true;
 	if (Moves > 0) SuccessfullEnd = false;
-	if (SuccessfullEnd) alert("Partida ganada");
+	if (SuccessfullEnd){
+
+		ShowMessege("Ganaste!", false);
+		Level ++;
 }
+
+	} 
 
 function Check_Moves(x, y, move_x, move_y){
 	option_x = x + move_x;
@@ -48,7 +53,7 @@ function Check_GameOver(x, y){
 	document.getElementById("options").innerHTML = Options;
 	if (!Options){
 		if(Bonus) CheckCell_required = false;
-		else alert("Game over");
+		else ShowMessege("Game Over", true);
 
 	} 
 }
