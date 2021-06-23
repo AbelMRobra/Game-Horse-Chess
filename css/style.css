@@ -141,7 +141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#514200', end
 	height: 140px;
 }
 #title #scores .score p{
-	margin: 5px;
+	margin: 2px;
 }
 #title #scores .score #time{
 	text-align: center;
