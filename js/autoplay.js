@@ -6,7 +6,7 @@ var Options;
 var Moves_Required;
 var Bonus;
 var Lifes = 2;
-var Level = 5;
+var Level = 1;
 var Level_Moves;
 var Next_Level = false;
 
@@ -75,7 +75,7 @@ function Check_newBonus(){
 
 function SelectCell(x, y){
 
-	Moves--;
+	Moves --;
 	document.getElementById("moves").innerHTML = Moves;
 	Grow_MaterBonus()
 	if (board[x][y] == 2){
@@ -131,8 +131,6 @@ function CheckCell(x, y){
 	if (CheckTrue == true) SelectCell(x, y);
 
 	}
-
-	
 
 function autoplay(){
 

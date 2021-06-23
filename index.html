@@ -5,7 +5,9 @@
 	<title>Horse Game</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
 	<link rel="shortcut icon" href="horse.gif" type="image/x-icon">
 
@@ -23,29 +25,30 @@
 				</div>
 				<hr>
 				<div id="scores">
+					
+					<div class="score" >
+						<p><span>Level: </span><span id="level"></span> </p>
+						<p><span>Moves: </span><span id="moves"></span> </p>
+						<p><span>Options: </span><span id="options"></span><span id="bonus" style="color: gold;"></span></p>
+						
+	
+					</div>
+
 					<div class="score">
-						<p>Options</p>
-						<div  id="meter_bonus" style="background-color: gold;">Bonus</div>
-						<p><span id="options"></span>
-						<span id="bonus" style="color: gold;"></span></p>
+						
+						<p><span>Lifes: </span><span id="lifes"></span> </p>
+						<p><span>Time: </span><span id="minutes">00</span>:<span id="seconds">00</span> </p>
+
+	
 					</div>
 					<div class="score">
-						<p>Moves</p>
-						<p id="moves">63</p>
-					</div>
-					<div class="score">
-						<p>Lifes</p>
-						<p id="lifes"></p>
-					</div>
-					<div class="score">
-						<p>Level</p>
-						<p id="level"></p>
+
+						<p><span>Bonus:</p>
+						<div id="meter_bonus" style="background-color: gold;">Completa</div>
+
+						
 					</div>
 					
-					<div class="score">
-						<p>Time</p>
-						<p id="time"><span id="minutes">00</span>:<span id="seconds">00</span></p>
-					</div>
 
 				</div>
 			</div>

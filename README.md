@@ -17,3 +17,7 @@ En este juego practico de JS:
 * Uso de bucles y condicionales
 * El uso de matrices para el posicionamiento de las piezas
 * Desarrollo el pensamiento logico
+
+Prueba el juego!
+
+https://abelmrobra.github.io/Game-Horse-Chess/

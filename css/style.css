@@ -1,8 +1,19 @@
+/*
+@font-face{
+	font-family: "irlandesa";
+	src: url("font/irlandesa.eot");
+	src: local('?'),
+		url("font/irlandesa.woff") format("woff"),
+		url("font/irlandesa.ttf") format("truetype"),
+
+}
+*/
+
 body{
-	font-family: 'Amaranth', 'sans-serif';
+	font-family: 'Indie Flower', cursive;
 	font-size: 16px;
-	color: #776E65;
-	background-color: #FAF8EF;
+	color: #353344;
+	background-color: #ECF5F2;
 }
 #content{
 	width: 100%;
@@ -114,37 +125,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#514200', end
 
 #title #scores{
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 5px;
+
 }
 #title #scores .score{
-	background-color:#776E65; 
+	background-color:#695338; 
 	border-radius: 25px;
 	color: #FAF8EF;
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 24px;
 	padding: 0px 15px;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 10px;
 	width: 140px;
+	height: 140px;
 }
 #title #scores .score p{
-	margin-top: 10px;
+	margin: 5px;
 }
 #title #scores .score #time{
-	text-align: left;
-	padding-left: 10px;
+	text-align: center;
+
 }
 #title #scores .score #options,
+#title #scores .score #bonus,
 #title #scores .score #lifes,
 #title #scores .score #level,
-#title #scores .score #bonus,
+
 #title #scores .score #moves, 
 #title #scores .score #time{
-	font-size: 2em;
-	margin: -20px 0px 0px 0px;
+	font-size: 24px;
+
 
 }
-
 
 #message{
 	width: 100%;
@@ -201,8 +214,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#514200', end
 
 @media screen and (min-width: 430px){
 	#board .row .cell{
-		height:  40px;
-		width: 40px;
+		height:  50px;
+		width: 50px;
 	}
 }
 
