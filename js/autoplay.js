@@ -6,7 +6,7 @@ var Options;
 var Moves_Required;
 var Bonus;
 var Lifes = 2;
-var Level = 3;
+var Level = 4;
 var Level_Moves;
 var Next_Level = false;
 
